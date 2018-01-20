@@ -1,4 +1,4 @@
-FLAGS = -Wall -g -I ../include -std=gnu99
+FLAGS = -Wall -g -I ../include -std=gnu99 -fPIC
 BIN = test
 SRC = $(wildcard *.c)
 NAME = requests
